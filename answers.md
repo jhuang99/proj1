@@ -17,7 +17,7 @@ I passed in the trainer_path, which needed the id of the current trainer.
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 
-
+The errors from the validate method is passed into the error params of flash, which is continued to the next action, and thus showed on the view. 
 # Give us feedback on the project and decal below!
-
+Fun project!
 # Extra credit: Link your Heroku deployed app
