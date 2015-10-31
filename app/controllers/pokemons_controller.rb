@@ -18,7 +18,7 @@ class PokemonsController < ApplicationController
 		else
 			@pokemon.destroy
 		end
-		redirect_to trainer_path(id: trainer_id)
+		redirect_to trainer_path(id: current_trainer)
 	end
 
 	def new
